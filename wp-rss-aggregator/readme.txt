@@ -5,7 +5,7 @@ Tags: RSS import, RSS aggregator, autoblog, feed to post, news aggregator, rss t
 Requires at least: 4.0 or higher
 Tested up to: 6.4
 Requires PHP: 5.4
-Stable tag: 4.23.4
+Stable tag: 4.23.5
 License: GPLv3
 
 The most powerful and reliable RSS aggregator for WordPress. Build a news aggregator, autoblog, and more in minutes with unlimited RSS feeds.
@@ -254,6 +254,13 @@ Our complete Knowledge Base with FAQs can be found [here](https://kb.wprssaggreg
 
 
 == Changelog ==
+
+= 4.23.5 (2024-01-24) =
+**Fixed**
+- Error messages no longer reveal information about potentially inaccessible resources. (CVE-2024-0628) 
+- JavaScript code in feed item URLs is now properly sanitized and escaped. (CVE-2024-0630) 
+- Word trimming did not work correctly when posts had leading whitespace.
+- The Templates page did not load properly on some websites.
 
 = 4.23.4 (2023-11-18) =
 **Added**
